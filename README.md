@@ -3,5 +3,8 @@
 - Web: https://sampking.vercel.app
 - Discord: https://discord.gg/aportesking-1206772406983721010
 
-![Muestra1](Images/muestras.PNG)
-![Muestra2](Images/muestra.PNG)
+
+## MUESTRAS: Imagenes Test
+
+![Muestra](images/muestras.PNG)
+![Muestra](images/muestra.PNG)
