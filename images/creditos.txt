@@ -1,0 +1,51 @@
+===========================================
+            S A M P K I N G
+===========================================
+
+Proyecto: Discord Rich Presence para SA-MP
+Plataforma: GTA San Andreas Multiplayer
+Sistema: MoonLoader (Lua 5.1)
+
+-------------------------------------------
+Créditos
+-------------------------------------------
+
+👑 SampKing
+• Idea original
+• Desarrollo del sistema
+• Integración Discord RPC
+• Configuración SA-MP
+
+👨‍💻 LittleKingPlays
+• Autor principal del script
+• Diseño de la presencia en Discord
+• Optimización y pruebas
+
+-------------------------------------------
+Herramientas y librerías
+-------------------------------------------
+
+• MoonLoader (BlastHack Team)
+• Lua 5.1
+• Discord RPC
+• SA-MP Client
+
+-------------------------------------------
+Enlaces oficiales
+-------------------------------------------
+
+🌐 Web: https://sampking.vercel.app
+💬 Discord: https://discord.gg/aportesking-1206772406983721010
+
+-------------------------------------------
+Notas
+-------------------------------------------
+
+Este script fue creado con fines educativos
+y de entretenimiento para la comunidad SA-MP.
+
+Prohibida su venta o redistribución sin créditos.
+
+===========================================
+          © SampKing - Todos los derechos reservados
+===========================================
