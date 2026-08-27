@@ -1,10 +1,10 @@
-## SA:MP Discord Rich Presence plugin
+## SA:MP Discord Rich Presence
 
 - Web: https://sampking.vercel.app
 - Discord: https://discord.gg/aportesking-1206772406983721010
 
 
-## MUESTRAS: Imagenes Test
+## MUESTRA: 
 
 ![Muestra](images/muestrasnueva.png)
 
