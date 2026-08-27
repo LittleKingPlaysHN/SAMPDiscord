@@ -2,7 +2,7 @@ local ffi = require("ffi")
 local encoding = require("encoding")
 encoding.default = "CP1251"
 
-local DISCORD_APP_ID = "1458923064891801805" -- // AQUI PUEDEN PONER EL ID DE SU APP DE DISCORD
+local DISCORD_APP_ID = "1406538704234877060" -- // AQUI PUEDEN PONER EL ID DE SU APP DE DISCORD
 local startTimestamp = os.time()
 local PLAYER_PED = PLAYER_PED 
 
@@ -74,10 +74,7 @@ local function updateDiscord(serverName, largeImg, smallImg)
     local presence = ffi.new("DiscordRichPresence")
 
     local stateText = getStateText()
-    local success, playerId = sampGetPlayerIdByCharHandle(PLAYER_PED)
-    if not success or type(playerId) ~= "number" then
-        playerId = 1
-    end
+    local onlineCount = isSampAvailable() and sampGetPlayerCount(false) or 0
 
     presence.state = stateText
     presence.details = serverName or "Servidor desconocido"
@@ -92,9 +89,9 @@ local function updateDiscord(serverName, largeImg, smallImg)
     presence.button1_url = "https://discord.gg/aportesking-1206772406983721010" -- PONER TU LINK AQUI
 
     presence.button2_label = "Visitar web"
-    presence.button2_url = "https://sampking.vercel.app" -- // PONER TU LINK AQUI
+    presence.button2_url = "https://sampking.vercel.app" -- PONER TU LINK AQUI
 
-    presence.partySize = playerId
+    presence.partySize = onlineCount > 0 and onlineCount or 1
     presence.partyMax = 1000
     presence.instance = 0
 
