@@ -6,5 +6,5 @@
 
 ## MUESTRAS: Imagenes Test
 
-![Muestra](images/muestras.PNG)
-![Muestra](images/muestra.PNG)
+![Muestra](images/muestrasnueva.PNG)
+
